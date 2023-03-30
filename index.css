@@ -1,0 +1,80 @@
+html, 
+body {
+    min-width: 290px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(0, 0, 0);
+    color: rgb(223, 218, 211);
+}
+
+/*Nav bar*/
+#navbar {
+    position: fixed;
+    min-width: 300px;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 100%;
+    border-right: solid;
+    border-color : rgba(255, 221, 180, 0.4);
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: #d7d8e0;
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #d7d8e0;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*End nav bar*/
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    margin-bottom: 110px;
+    padding: 20px;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0;
+}
+
+header {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #f3f3f8;
+}
+
+section article {
+    margin: 15px;
+    font-size: 0.97rem;
+}
+
+section li {
+    margin: 15px 0 0 20px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    line-height: 2;
+    padding: 15px;
+    margin: 10px;
+}
